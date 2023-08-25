@@ -35,15 +35,15 @@ body{
     position: relative;
 }
 
-.nav{
-    width: 20%;
-    height: 100%;
+.contact{
+    height: 50vh;
+    width: 60px;
     position: fixed;
-    top: 0px;
-    left: 0px;
+    top: 20vh;
+    right: 20px;
     background-color: var(--amarillo);
     z-index: 999;
-    transform: translateX(-100%);
+    border-radius: 50px;
 }
 
 
@@ -146,14 +146,16 @@ a{
     height: 100vh;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     position: relative;
 }
 
 .contInfos{
-    width: 80%;
+    width: 70%;
     height: 100%;
-    position: absolute;
-    right: 0;
+    margin-left: 15%;
+
 }
 
 .contTitle{

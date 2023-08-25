@@ -9,6 +9,6 @@ pageTwo.addEventListener("mouseover", function(){
 })
 
 pageOne.addEventListener("mouseover", function(){
-    navPanel.style.transition = "1s"
+    navPanel.style.transition = "1s ease"
     navPanel.style.transform = "translate(-100%)"
 })
