@@ -1,0 +1,33 @@
+:root{
+    --amarillo: rgb(255, 196, 0);
+}
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header{
+    background-color: aliceblue;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+.main_info, .profil_foto{
+    height: 100%;
+    width: 50%;
+}
+
+.profil_foto{
+    background-color: rgb(77, 77, 77);
+}
+
