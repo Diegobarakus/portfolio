@@ -7,6 +7,14 @@
     box-sizing: border-box;
 }
 
+h1, h2, h3, h4, h5, p, a{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+h1{
+    font-weight: 800;
+}
+
 body{
     background-color: gray;
     display: flex;
@@ -28,6 +36,66 @@ header{
 }
 
 .profil_foto{
-    background-color: rgb(77, 77, 77);
+    background-image: url("./imgs/PASSBILD-Diego.png"); /* The image used */
+    background-color: black ;
+    background-position: top; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: 100vw;
+    filter: saturate(0);
+    transition: 1s ease;
+
 }
 
+.profil_foto:hover{
+    filter: saturate(1);
+    background-color: var(--amarillo) ;
+}
+
+.main_info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_data{
+    width: 90%;
+    height: 210px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+}
+
+.name_box{
+    display: flex;
+}
+
+.name_artist{
+    color: var(--amarillo);
+}
+.name_artist{
+    margin-left: 10px;
+}
+
+.tip_box1{
+    background-color: var(--amarillo);
+    padding: 2px 10px;
+    border-radius: 2px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.aboutmeBtn{
+    background-color: var(--amarillo);
+    width: fit-content;
+    height: fit-content;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: 600;
+    margin-top: 20px;
+}
