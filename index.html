@@ -4,26 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>portfolio Diego Calle</title>
-    <script src="./main.js"></script>
     <link rel="stylesheet" href="main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Space+Mono&display=swap" rel="stylesheet">
 </head>
 <body>
+    <div class="main">
+
+        <div id="navPanel" class="nav"></div>
+
         <!--Here is my header, i introduce myself here-->
-        <header>
-            <div class="main_info">
-               <div class="main_data">
+        <header id="pageOne">
+            <div class="mainInfo">         
+               <div class="mainData">
                     <h3>HI THERE!</h3>
-                    <div class="name_box"><h1>I´M</h1><h1 class="name_artist"> DIEGO CALLE</h1></div>
-                    <div class="tip_box1"><H4>3D GRAPHIC DESIGNER UND PROGRAMMER</H4></div>
+                    <div class="nameBox"><h1>I´M</h1><h1 class="nameArtist"> DIEGO CALLE</h1></div>
+                    <div class="tipBox1"><H4>3D GRAPHIC DESIGNER UND PROGRAMMER</H4></div>
                     <p class="my_description">I am a specialist in <strong> 3D design</strong>, graphic design, video editing, and web programming. With my skills, I can offer your company a range of internal and external services that will enhance productivity and short-term benefits.</p>
-                    <a  href="#aboutme_page" class="aboutmeBtn">more about me</a>
+                    <a  href="#aboutmePage" class="aboutmeBtn">more about me</a>
                 </div> 
             </div>
-            <div class="profil_foto"></div>
+            <div class="gradient"></div>  
+            <div class="profilFoto"></div>
         </header>
-    
+
+        <!--Next page-->
+
+        <div id="pageAboutme" class="pageAboutme" id="aboutmePage">
+            <div class="contInfos">
+                <div class="contTitle">
+                        <h1 class="title">ABOUT ME</h1>
+                    <div class="rasterInfo">
+                        <h2>Im Diego Stivel Calle Giraldo 3D graphic designer und programmer</h2>
+                        <p>I originally come from Colombia and have been living in Germany for 6 years. For the past 7 years, I have worked in various companies as a designer, and for the past 2 years, I have been working independently as a programmer. Here, I present you with a summary of what I have to offer.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="/main.js"></script>
 </body>
 </html>
